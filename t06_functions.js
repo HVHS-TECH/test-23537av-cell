@@ -13,7 +13,7 @@ let pocketMoney = 30;
 let myBirthYear = 2008;
 let myNumber = 15;
 let tenYear = 10;
-let myOthernumber = 17;
+let myOthernumber = 17;uyhgtfuhy
 let number = 3;
 writeLine()
 console.log(myNumber + myOthernumber);
