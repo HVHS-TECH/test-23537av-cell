@@ -7,6 +7,7 @@ console.log("Running T1.js");
 Main code
 ****************************/
 let userName = "Anusha";
+let personName = "Ms Alice"
 let userAge = 17;
 let userCurrentYear = 2026;
 let pocketMoney = 30;
@@ -23,5 +24,13 @@ console.log("you were born in " + myBirthYear);
 console.log("In 10 years you will be " ,+ userAge + tenYear);
 console.log("you spend half of your money, now you have", + myNumber);
 console.log("Then you get $3 , now you have", + myNumber + number);
+
+const OUTPUT = document.getElementById("JavaScriptOutput");
+
+OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
+OUTPUT.innerHTML += "<p> Hello " + userName + "</p>";
+OUTPUT.innerHTML += "<p>I am 17 years old.</p>";
+OUTPUT.innerHTML += "<p> I am a student of year 12.</p>";
+
 
 

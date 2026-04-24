@@ -26,6 +26,12 @@ console.log("you spend half of your money, now you have", + myNumber);
 console.log("Then you get $3 , now you have", + myNumber + number);
 console.log()
 
+const OUTPUT = document.getElementById("JavaScriptOutput");
+
+OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
+OUTPUT.innerHTML += "<p> Hello " + userName + "</p>";
+OUTPUT.innerHTML += "<p>I am 17 years old.</p>";
+OUTPUT.innerHTML += "<p> I am a student of year 12.</p>";
 
 /****************************
  Functions
