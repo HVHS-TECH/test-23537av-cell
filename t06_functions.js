@@ -13,18 +13,15 @@ let pocketMoney = 30;
 let myBirthYear = 2008;
 let myNumber = 15;
 let tenYear = 10;
-let myOthernumber = 17;uyhgtfuhy
+let myOthernumber = 17;
 let number = 3;
-writeLine()
-console.log(myNumber + myOthernumber);
-console.log("Hi " + userName);
+OUTPUT.innerHTML = "<p>" 
 console.log("As of " + userCurrentYear + " you are " + userAge);
 console.log("you have " + pocketMoney + " dollars ");
 console.log("you were born in " + myBirthYear);
 console.log("In 10 years you will be " ,+ userAge + tenYear);
 console.log("you spend half of your money, now you have", + myNumber);
 console.log("Then you get $3 , now you have", + myNumber + number);
-console.log()
 
 const OUTPUT = document.getElementById("JavaScriptOutput");
 
@@ -36,7 +33,9 @@ OUTPUT.innerHTML += "<p> I am a student of year 12.</p>";
 /****************************
  Functions
 ****************************/
+
 function writeLine(){
+OUTPUT.innerHTML += "<p> Welcome to the shop</p>";
 
 
 }
