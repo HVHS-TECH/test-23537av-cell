@@ -14,28 +14,19 @@ let myBirthYear = 2008;
 let myNumber = 15;
 let tenYear = 10;
 let myOthernumber = 17;
-let number = 3;
-OUTPUT.innerHTML = "<p>" 
+let number = 3; 
 console.log("As of " + userCurrentYear + " you are " + userAge);
 console.log("you have " + pocketMoney + " dollars ");
 console.log("you were born in " + myBirthYear);
 console.log("In 10 years you will be " ,+ userAge + tenYear);
 console.log("you spend half of your money, now you have", + myNumber);
 console.log("Then you get $3 , now you have", + myNumber + number);
-
+function writeLine(){
 const OUTPUT = document.getElementById("JavaScriptOutput");
 
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 OUTPUT.innerHTML += "<p> Hello " + userName + "</p>";
-OUTPUT.innerHTML += "<p>I am 17 years old.</p>";
-OUTPUT.innerHTML += "<p> I am a student of year 12.</p>";
-
-/****************************
- Functions
-****************************/
-
-function writeLine(){
-OUTPUT.innerHTML += "<p> Welcome to the shop</p>";
-
-
+OUTPUT.innerHTML += "<p> I am 17 years old .</p>";
+OUTPUT.innerHTML += "<p> I was born in 2008 .</p>";
+OUTPUT.innerHTML += "<p> Welcome to the shop .</p>";
 }
