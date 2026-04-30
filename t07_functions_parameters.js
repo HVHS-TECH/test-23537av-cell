@@ -28,10 +28,10 @@ Main code
 function writeLine (){
 OUTPUT.innerHTML += "<p> Welcome to the shop .</p>";}
 displayProduct ("Chocolate bar" , 4);
-displayProduct ("Chips" , 3);
-displayProduct ("Drink", 2.50);
+displayProduct ("Chips " , 3);
+displayProduct ("Drink ", 2.50);
 
  function displayProduct (_name, _price){
-OUTPUT.innerHTML += "<p>" + _name + _price + "</p>";
+OUTPUT.innerHTML += "<p>" + _name + " :$" + _price + "</p>";
 }
 
