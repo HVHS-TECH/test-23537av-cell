@@ -23,10 +23,12 @@ writeLine()
 /****************************
 Main code
 ****************************/
-let product = "Chocolate Bar" ; 
-let secondProduct = ""
+
 
 function writeLine (){
 OUTPUT.innerHTML += "<p> Welcome to the shop .</p>";}
 displayProduct ("Chocolate bar" , 4);
+displayProduct ("Chips" , 3);
+displayProduct ("Drink", 2.50);
+
 
