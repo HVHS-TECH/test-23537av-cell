@@ -30,6 +30,7 @@ OUTPUT.innerHTML += "<p> I was born in 2008 .</p>";
 OUTPUT.innerHTML += "<p> Welcome to the shop .</p>";
 writeLine()
 function writeLine (){
+OUTPUT.innerHTML += 
 
 
 
