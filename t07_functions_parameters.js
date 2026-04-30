@@ -27,10 +27,12 @@ OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 OUTPUT.innerHTML += "<p> Hello " + userName + "</p>";
 OUTPUT.innerHTML += "<p> I am 17 years old .</p>";
 OUTPUT.innerHTML += "<p> I was born in 2008 .</p>";
-OUTPUT.innerHTML += "<p> Welcome to the shop .</p>";
 writeLine()
 function writeLine (){
-OUTPUT.innerHTML += 
+OUTPUT.innerHTML += "<p> Welcome to the shop .</p>";
+
+
+
 
 
 
