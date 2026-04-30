@@ -25,11 +25,9 @@ console.log("you spend half of your money, now you have", + myNumber);
 console.log("Then you get $3 , now you have", + myNumber + number);
 
 const OUTPUT = document.getElementById("JavaScriptOutput");
-
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 OUTPUT.innerHTML += "<p> Hello " + userName + "</p>";
 OUTPUT.innerHTML += "<p> I am 17 years old .</p>";
 OUTPUT.innerHTML += "<p> I was born in 2008 .</p>";
 OUTPUT.innerHTML += "<p> Welcome to the shop .</p>";
-
-}
+function writeLine();
