@@ -2,8 +2,6 @@
 /* Paste your code from task 5 here */
 console.log("Running T1.js");
 
-//variables
-
 /****************************
 Main code
 ****************************/
@@ -28,11 +26,13 @@ OUTPUT.innerHTML += "<p> Hello " + userName + "</p>";
 OUTPUT.innerHTML += "<p> I am 17 years old .</p>";
 OUTPUT.innerHTML += "<p> I was born in 2008 .</p>";
 writeLine()
+
+/****************************
+Main code
+****************************/
+
 function writeLine (){
 OUTPUT.innerHTML += "<p> Welcome to the shop .</p>";
-
-
-
 
 
 
