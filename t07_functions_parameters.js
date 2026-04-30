@@ -23,6 +23,8 @@ writeLine()
 /****************************
 Main code
 ****************************/
+let product = "Chocolate Bar" ; 
+let secondProduct = ""
 
 function writeLine (){
 OUTPUT.innerHTML += "<p> Welcome to the shop .</p>";}
