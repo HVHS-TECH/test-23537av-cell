@@ -39,11 +39,11 @@ writeLine();
 function writeLine(){
 OUTPUT.innerHTML += "<p> Welcome to the shop</p>";
 function getFormInput(){
-const NAME_FIELD = document.getElementById("nameField");
+const pocket_Money = document.getElementById("pocketMoney");
 const AGE_FIELD  = document.getElementById("AgeField");
-let Name = NAME_FIELD.value;
+let Name = pocket_Money.value;
 let usersAge = AGE_FIELD.value ;
-OUTPUT.innerHTML = "<p> Your name is " + Name + usersAge +  "</p>";
+OUTPUT.innerHTML = "<p> Your name is " + pocketMoney + usersAge +  "</p>";
 
 
 }
