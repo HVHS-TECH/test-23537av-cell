@@ -24,15 +24,11 @@
   <div id="spaceForJavaScriptOutput">
     const OUTPUT = document.getElementById("JavaScriptOutput");
     OUTPUT.innerHTML = "Hello wrold!<br>";
-    <form>
-    <input type = "text">
-    <input type = "submit">
-    </form>form>
-    <form onsubmit = "return false;">
-    <input type = "text" id = "ageField" name = "AgeForm"  placeHolder = " Enter your age">
+   <form onsubmit = "return false;">
+    <label for = "formAge"> Name:</label> 
+    <input type = "text" id = "AgeField" name = "formAge" placeHolder = "Enter your age" >
     <input type = "submit" onClick = getFormInput()>
     </form>
-    <label for= "formName">Name :</label>
 
     The output of your script will go here.
 
