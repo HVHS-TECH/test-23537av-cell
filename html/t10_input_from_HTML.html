@@ -22,7 +22,20 @@
   <p><br><br><i>Copy your HTML from the last task and keep building.</i><br><br><br><br></p>
 
 
-  <div id="spaceForJavaScriptOutput">
+  <div id="JavaScriptOutput">
+    const OUTPUT = document.getElementById("JavaScriptOutput");
+    OUTPUT.innerHTML = "Hello wrold!<br>";
+    <form>
+    <input type = "text">
+    <input type = "submit">
+    </form>form>
+    <form onsubmit = "return false;">
+    <input type = "text" id = "nameField" name = "formName" value = "Anusha" placeHolder = "Name">
+    <input type = "submit" onClick = getFormInput()>
+    </form>
+    <label for= "formName">Name :</label>
+
+   
 
     The output of your script will go here.
 
