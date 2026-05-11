@@ -17,7 +17,7 @@ let myNumber = 15;
 let tenYear = 10;
 let myOthernumber = 17;
 let number = 3;
-function start() {
+function start() {}
     console.log("As of " + userCurrentYear + " you are " + userAge);
     console.log("you have " + pocketMoney + " dollars ");
     console.log("you were born in " + myBirthYear);
@@ -36,18 +36,16 @@ function start() {
      Functions
     ****************************/
 
-    function writeLine() {
+    function writeLine() {}
         OUTPUT.innerHTML += "<p> Welcome to the shop</p>";
-        function getFormInput() {
+        function getFormInput() {}
             const NAME_FIELD = document.getElementById("nameField");
             let Name = NAME_FIELD.value;
             OUTPUT.innerHTML = "<p> Your name is " + NAME_FIELD + "</p>";
 
 
 
-        }
-    }
-}
+       
 
 
 
