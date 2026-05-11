@@ -37,11 +37,12 @@ writeLine();
 ****************************/
  
 function writeLine(){
-    OUTPUT.innerHTML += "<p> Welcome to the shop</p>";
+OUTPUT.innerHTML += "<p> Welcome to the shop</p>";
 function getFormInput(){
 const NAME_FIELD = document.getElementById("nameField");
 let Name = NAME_FIELD.value;
 OUTPUT.innerHTML = "<p> Your name is " + NAME_FIELD + "</p>";
+
 
 
 }
