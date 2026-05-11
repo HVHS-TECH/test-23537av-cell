@@ -37,18 +37,18 @@ function start() {
     ****************************/
 
     function writeLine() {
-        OUTPUT.innerHTML += "<p> Welcome to the shop</p>";
-        function getFormInput() {
-            const Pocket_Money = document.getElementById("pocketMoney");
-            const AGE_FIELD = document.getElementById("AgeField");
-            let Name = Pocket_Money.value;
-            let usersAge = AGE_FIELD.value;
-            OUTPUT.innerHTML = "<p> Your name is " + Pocket_Money + AGE_FIELD + "</p>";
+    OUTPUT.innerHTML += "<p> Welcome to the shop</p>";
+    function getFormInput() {
+    const Pocket_Money = document.getElementById("pocketMoney");
+    const AGE_FIELD = document.getElementById("AgeField");
+    let Name = Pocket_Money.value;
+    let usersAge = AGE_FIELD.value;
+    OUTPUT.innerHTML = "<p> Your name is " + Pocket_Money + AGE_FIELD + "</p>";
 
 
-        }
     }
-}
+    }
+    }
 
 
 
