@@ -40,10 +40,10 @@ function start() {
     OUTPUT.innerHTML += "<p> Welcome to the shop</p>";
     function getFormInput() {
     const NAME_FIELD = document.getElementById("nameField");
-    let Name = NAME_FIELD.value;
-    OUTPUT.innerHTML = "<p> Your name is " + NAME_FIELD + "</p>";
+    let nameUser = NAME_FIELD.value;
+    OUTPUT.innerHTML = "<p> Your name is " + nameUser + "</p>";
     let money = number (Pocket_Money.value);
-    let usersAge = Number (AGE_FIELD.value);
+    let usersAge = AGE_FIELD.value;
     OUTPUT.innerHTML += "<p> Your age is  " + Pocket_Money + AGE_FIELD + "</p>";
 
 
