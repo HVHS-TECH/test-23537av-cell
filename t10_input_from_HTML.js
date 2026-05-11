@@ -8,16 +8,16 @@ console.log("Running T1.js");
 /****************************
 Main code
 ****************************/
-let userName = "Anusha";
-let userAge = 17;
-let userCurrentYear = 2026;
-let pocketMoney = 30;
-let myBirthYear = 2008;
-let myNumber = 15;
-let tenYear = 10;
-let myOthernumber = 17;
-let number = 3;
-function start() {}
+    let userName = "Anusha";
+    let userAge = 17;
+    let userCurrentYear = 2026;
+    let pocketMoney = 30;
+    let myBirthYear = 2008;
+    let myNumber = 15;
+    let tenYear = 10;
+    let myOthernumber = 17;
+    let number = 3;
+    function start() {}
     console.log("As of " + userCurrentYear + " you are " + userAge);
     console.log("you have " + pocketMoney + " dollars ");
     console.log("you were born in " + myBirthYear);
@@ -37,11 +37,11 @@ function start() {}
     ****************************/
 
     function writeLine() {}
-        OUTPUT.innerHTML += "<p> Welcome to the shop</p>";
-        function getFormInput() {}
-            const NAME_FIELD = document.getElementById("nameField");
-            let Name = NAME_FIELD.value;
-            OUTPUT.innerHTML = "<p> Your name is " + NAME_FIELD + "</p>";
+    OUTPUT.innerHTML += "<p> Welcome to the shop</p>";
+    function getFormInput() {}
+    const NAME_FIELD = document.getElementById("nameField");
+    let Name = NAME_FIELD.value;
+    OUTPUT.innerHTML = "<p> Your name is " + NAME_FIELD + "</p>";
 
 
 
