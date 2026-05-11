@@ -43,7 +43,7 @@ function start() {
             const AGE_FIELD = document.getElementById("AgeField");
             let Name = Pocket_Money.value;
             let usersAge = AGE_FIELD.value;
-            OUTPUT.innerHTML = "<p> Your name is " + Pocket_Money + usersAge + "</p>";
+            OUTPUT.innerHTML = "<p> Your name is " + Pocket_Money + AGE_FIELD + "</p>";
 
 
         }
