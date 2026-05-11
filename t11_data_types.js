@@ -41,7 +41,7 @@ function start() {
     function getFormInput() {
     const NAME_FIELD = document.getElementById("nameField");
     let nameUser = NAME_FIELD.value;
-    OUTPUT.innerHTML = "<p> Your name is " + nameUser + "</p>";
+    OUTPUT.innerHTML = "<p> Your name is " + NAME_FIELD + "</p>";
     let money = number (Pocket_Money.value);
     let usersAge = AGE_FIELD.value;
     OUTPUT.innerHTML += "<p> Your age is  " + Pocket_Money + AGE_FIELD + "</p>";
