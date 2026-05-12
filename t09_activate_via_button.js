@@ -30,7 +30,6 @@ function start() {
     OUTPUT.innerHTML += "<p>I am 17 years old.</p>";
     OUTPUT.innerHTML += "<p> I am a student of year 12.</p>";
     writeLine();
-}
 
 /****************************
  Functions
@@ -39,6 +38,7 @@ function start() {
 function writeLine() {
     OUTPUT.innerHTML += "<p> Welcome to the shop</p>";
 
+}
 }
 
 
