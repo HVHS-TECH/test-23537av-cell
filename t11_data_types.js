@@ -35,8 +35,6 @@ function start() {}
     /****************************
      Functions
     ****************************/
-
-    }
     function writeLine() {}
     OUTPUT.innerHTML += "<p> Welcome to the shop</p>";
     function getFormInput() { }
