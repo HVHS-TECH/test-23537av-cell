@@ -31,20 +31,18 @@ function start() {
     OUTPUT.innerHTML += "<p> I am a student of year 12.</p>";
     writeLine();
 
-/****************************
- Functions
-****************************/
+    /****************************
+     Functions
+    ****************************/
 
-function writeLine() {
-    OUTPUT.innerHTML += "<p> Welcome to the shop</p>";
-    OUTPUT.innerHTML += "<p> Welcome to the shop</p>";
-    function getFormInput() { }
-    const NAME_FIELD = document.getElementById("nameField");
-    let nameUser = NAME_FIELD.value;
-    OUTPUT.innerHTML = "<p> Your name is " + NAME_FIELD + "</p>";
-
+    function writeLine() {
+        OUTPUT.innerHTML += "<p> Welcome to the shop</p>"
+    }
 }
-}
+function getFormInput() { }
+const NAME_FIELD = document.getElementById("nameField");
+let nameUser = NAME_FIELD.value;
+OUTPUT.innerHTML = "<p> Your name is " + NAME_FIELD + "</p>";
 
 
 
