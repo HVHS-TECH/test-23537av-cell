@@ -42,4 +42,4 @@ function start() {}
     OUTPUT.innerHTML = "<p> Your name is " + NAME_FIELD + "</p>";
     let money = number (Pocket_Money.value);
     let usersAge = AGE_FIELD.value;
-    OUTPUT.innerHTML += "<p> "
+    OUTPUT.innerHTML += "<p> A chocolate bar costs $4"+ "<p>";
