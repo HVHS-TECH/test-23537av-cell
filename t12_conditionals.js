@@ -43,7 +43,6 @@ function start() {}
     let usersAge = AGE_FIELD.value;
     OUTPUT.innerHTML += "<p> Your age is  " + Pocket_Money + AGE_FIELD + "</p>";
     var chocolatePrice = $4;
-    if money >= chocolatePrice:
 
 
 
