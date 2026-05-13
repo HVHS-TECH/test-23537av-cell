@@ -35,9 +35,9 @@ function start() {
      Functions
     ****************************/
 
-    function writeLine() {
-        OUTPUT.innerHTML += "<p> Welcome to the shop</p>"
-    }
+ function writeLine() {
+ OUTPUT.innerHTML += "<p> Welcome to the shop</p>"
+}
 }
 function getFormInput() { }
 const NAME_FIELD = document.getElementById("nameField");
