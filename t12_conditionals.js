@@ -28,13 +28,13 @@ function start() {}
     OUTPUT.innerHTML += "<p> Hello " + userName + "</p>";
     OUTPUT.innerHTML += "<p>I am 17 years old.</p>";
     OUTPUT.innerHTML += "<p> I am a student of year 12.</p>";
+    OUTPUT.innerHTML += "<p> Welcome to the shop</p>";
     writeLine();
 
     /****************************
      Functions
     ****************************/
     function writeLine() {}
-    OUTPUT.innerHTML += "<p> Welcome to the shop</p>";
     function getFormInput() { }
     const NAME_FIELD = document.getElementById("nameField");
     let nameUser = NAME_FIELD.value;
@@ -42,6 +42,8 @@ function start() {}
     let money = number (Pocket_Money.value);
     let usersAge = AGE_FIELD.value;
     OUTPUT.innerHTML += "<p> Your age is  " + Pocket_Money + AGE_FIELD + "</p>";
-    if
+    var chocolatePrice = $4;
+    if money >= chocolatePrice:
+
 
 
