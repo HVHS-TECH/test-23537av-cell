@@ -36,7 +36,7 @@ function start() {}
      Functions
     ****************************/
     function writeLine() {}
-    function getFormInput() { }
+    function getFormInput() {}
     const NAME_FIELD = document.getElementById("nameField");
     let nameUser = NAME_FIELD.value;
     OUTPUT.innerHTML = "<p> Your name is " + NAME_FIELD + "</p>";
@@ -46,6 +46,6 @@ function start() {}
     if (Pocket_Money >=4){
     OUTPUT.innerHTML += "<p> you CAN affrod a chocolate bar " + "<p>";
 } else{
-    OUTPUT.innerHTML +=  "<p> Sorry you Can't affrod a chocolate bar " + "<p>";
+    OUTPUT.innerHTML +=  "<p> Sorry you Can'taffrod a chocolate bar " + "<p>";
 }
 
