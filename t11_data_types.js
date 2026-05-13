@@ -46,7 +46,7 @@ function writeLine() {
     let ageNumber = AGE_FIELD.value;
     OUTPUT.innerHTML = "<p> Your age is " + AGE_FIELD + "</p>";
 
-    const Pocket_Money =  document.getElementById("PocketMoney");
+    const Pocket_Money =  document.getElementById("PocketMoneyField");
     let money = Pocket_Money.value;
      OUTPUT.innerHTML = "<p> You have " + Pocket_Money + "</p>";
 
