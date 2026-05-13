@@ -43,3 +43,7 @@ function start() {}
     let money = number (Pocket_Money.value);
     let usersAge = AGE_FIELD.value;
     OUTPUT.innerHTML += "<p> A chocolate bar costs $4"+ "<p>";
+    if (Pocket_Money >=4){
+    OUTPUT.innerHTML += "<p> you can affrod a chocolate bar " + "<p>";
+}
+
