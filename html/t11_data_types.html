@@ -21,26 +21,24 @@
 
   <p><br><br><i>Copy your HTML from the last task and keep building.</i><br><br><br><br></p>
 
-  <div id="spaceForJavaScriptOutput">
-    const OUTPUT = document.getElementById("JavaScriptOutput");
-    OUTPUT.innerHTML = "Hello wrold!<br>";
-    <form onsubmit = "return false;">
-    <label for = "formName"> Name:</label> 
-    <input type = "text" id = "nameField" name = "formName" placeHolder = "Name" >
-    <input type = "submit" onClick = getFormInput()>
+  <div id="JavaScriptOutput">
+  const OUTPUT = document.getElementById("JavaScriptOutput");
+  OUTPUT.innerHTML = "Hello wrold!<br>";
+  <form onsubmit="return false;">
+  <label for="formName"> Name:</label>
+  <input type="text" id="nameField" name="formName" placeHolder="Name">
 
-   <form onsubmit = "return false;">
-    <label for = "formAge"> Age:</label> 
-    <input type = "text" id = "AgeField" name = "formAge" placeHolder = "Enter your age" >
-    <input type = "submit" onClick = getFormInput()>
-    
-     <form onsubmit = "return false;">
-    <label for = "PocketMoney"> PocketMoney:</label> 
-    <input type = "text" id = "PocketMoney" name = "PocketMoney" placeHolder = "Enter your pocketMoney" >
-    <input type = "submit" onClick = getFormInput()>
-    </form>
+  <form onsubmit="return false;">
+  <label for="formAge"> Age:</label>
+  <input type="text" id="AgeField" name="formAge" placeHolder="Enter your age">
 
-    The output of your script will go here.
+  <form onsubmit="return false;">
+  <label for="PocketMoney"> PocketMoney:</label>
+  <input type="text" id="PocketMoney" name="PocketMoney" placeHolder="Enter your pocketMoney">
+  <input type="submit" onClick=getFormInput()>
+  </form>
+
+  The output of your script will go here.
 
   </div>
 
