@@ -15,6 +15,7 @@ let myNumber = 15;
 let tenYear = 10;
 let myOthernumber = 17;
 let number = 3;
+let Chocolate = "$4" ;
 function start() {}
     console.log("As of " + userCurrentYear + " you are " + userAge);
     console.log("you have " + pocketMoney + " dollars ");
@@ -42,7 +43,4 @@ function start() {}
     let money = number (Pocket_Money.value);
     let usersAge = AGE_FIELD.value;
     OUTPUT.innerHTML += "<p> Your age is  " + Pocket_Money + AGE_FIELD + "</p>";
-    var chocolatePrice = $4;
-
-
-
+    if Chocolate
