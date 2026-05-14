@@ -41,6 +41,7 @@ function start() {
   }
   }
     const OUTPUT = document.getElementById("JavaScriptOutput");
+   
     function getFormInput() { 
     const NAME_FIELD = document.getElementById("nameField");
     let nameUser = NAME_FIELD.value;
