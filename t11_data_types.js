@@ -1,5 +1,6 @@
 
-
+/* Paste your code from task 7 here*/
+/* Paste your code from task 5 here */
 console.log("Running T1.js");
 
 //variables
@@ -28,15 +29,42 @@ function start() {
     OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
     OUTPUT.innerHTML += "<p> Hello " + userName + "</p>";
     OUTPUT.innerHTML += "<p>I am 17 years old.</p>";
-    OUTPUT.innerHTML += "<p> I am a student of year 12.</p>";}
+    OUTPUT.innerHTML += "<p> I am a student of year 12.</p>";
     writeLine();
 
     /****************************
      Functions
     ****************************/
 
-function writeLine() {
+    function writeLine() {
     OUTPUT.innerHTML += "<p> Welcome to the shop</p>"
+    function getFormInput() { 
+    const NAME_FIELD = document.getElementById("nameField");
+    let nameUser = NAME_FIELD.value;
+    OUTPUT.innerHTML += "<p> Your name is " + NAME_FIELD + "</p>";
+}
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
     function getFormInput() { 
     const NAME_FIELD = document.getElementById("nameField");
