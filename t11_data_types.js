@@ -45,7 +45,7 @@ function start() {
     function getFormInput() { 
     const NAME_FIELD = document.getElementById("nameField");
     let nameUser = NAME_FIELD.value;
-    OUTPUT.innerHTML += "<p> Your name is " + NAME_FIELD + "</p>";
+    OUTPUT.innerHTML += "<p> Your name is " + nameUser + "</p>";
     
     const AGE_FIELD  = document.getElementById("AgeField");
     let ageNumber = AGE_FIELD.value;
