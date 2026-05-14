@@ -49,7 +49,7 @@ function writeLine() {
 
     const Pocket_Money =  document.getElementById("PocketMoneyField");
     let money = Pocket_Money.value;
-     OUTPUT.innerHTML = "<p> You have " + Pocket_Money + "</p>";
+     OUTPUT.innerHTML += "<p> You have " + Pocket_Money + "</p>";
 }
 
 
