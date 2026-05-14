@@ -1,5 +1,5 @@
-/* Paste your code from task 7 here*/
-/* Paste your code from task 5 here */
+
+
 console.log("Running T1.js");
 
 //variables
