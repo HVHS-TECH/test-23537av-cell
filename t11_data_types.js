@@ -36,7 +36,8 @@ function start() {
     ****************************/
 
 function writeLine() {
-    OUTPUT.innerHTML += "<p> Welcome to the shop</p>"}
+    OUTPUT.innerHTML += "<p> Welcome to the shop</p>"
+}
     function getFormInput() { 
     const NAME_FIELD = document.getElementById("nameField");
     let nameUser = NAME_FIELD.value;
@@ -49,12 +50,6 @@ function writeLine() {
     const Pocket_Money =  document.getElementById("PocketMoneyField");
     let money = Pocket_Money.value;
      OUTPUT.innerHTML = "<p> You have " + Pocket_Money + "</p>";
-
-
-
-
-
-
 }
 
 
