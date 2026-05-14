@@ -29,7 +29,7 @@ function start() {
     OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
     OUTPUT.innerHTML += "<p> Hello " + userName + "</p>";
     OUTPUT.innerHTML += "<p>I am 17 years old.</p>";
-    OUTPUT.innerHTML += "<p> I am a student of year 12.</p>"; }
+    OUTPUT.innerHTML += "<p> I am a student of year 12.</p>"; 
     writeLine();
 
     /****************************
@@ -37,7 +37,9 @@ function start() {
     ****************************/
 
     function writeLine() {
-    OUTPUT.innerHTML += "<p> Welcome to the shop</p>"
+    OUTPUT.innerHTML += "<p> Welcome to the shop</p>" 
+  }
+  }
     function getFormInput() { 
     const NAME_FIELD = document.getElementById("nameField");
     let nameUser = NAME_FIELD.value;
@@ -52,7 +54,6 @@ function start() {
      OUTPUT.innerHTML += "<p> You have " + Pocket_Money + "</p>";
 
 
-}
 }
 
 
