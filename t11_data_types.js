@@ -51,7 +51,7 @@ function getFormInput() {
     let ageNumber = AGE_FIELD.value;
     OUTPUT.innerHTML += "<p> Your age is " + ageNumber + "</p>";
 
-    const Pocket_Money = document.getElementById("PocketMoneyField");
+    const Pocket_Money = document.getElementById("PocketMoney");
     let money = Pocket_Money.value;
     OUTPUT.innerHTML += "<p> You have " + money + "</p>";
 
