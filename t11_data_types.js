@@ -48,8 +48,8 @@ function getFormInput() {
     OUTPUT.innerHTML += "<p> Your name is " + nameUser + "</p>";
 
     const AGE_FIELD = document.getElementById("ageField");
-    let userAge = AGE_FIELD.value;
-    OUTPUT.innerHTML += "<p> Your age is " + userAge + "</p>";
+    let ageUser = AGE_FIELD.value;
+    OUTPUT.innerHTML += "<p> Your age is " + ageUser + "</p>";
 
     const Pocket_Money = document.getElementById("pocketMoney");
     let money = Pocket_Money.value;
