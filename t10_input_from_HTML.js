@@ -37,11 +37,13 @@ function start() {
 
     function writeLine() {
     OUTPUT.innerHTML += "<p> Welcome to the shop</p>"
+    }
+    
+    const OUTPUT = document.getElementById("JavaScriptOutput");
     function getFormInput() { 
     const NAME_FIELD = document.getElementById("nameField");
     let nameUser = NAME_FIELD.value;
     OUTPUT.innerHTML += "<p> Your name is " + NAME_FIELD + "</p>";
-}
 }
 }
 
