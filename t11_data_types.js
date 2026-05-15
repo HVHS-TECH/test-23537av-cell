@@ -25,11 +25,11 @@ function start() {
     console.log("you spend half of your money, now you have", + myNumber);
     console.log("Then you get $3 , now you have", + myNumber + number);
 
-    
+
     OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
     OUTPUT.innerHTML += "<p> Hello " + userName + "</p>";
     OUTPUT.innerHTML += "<p>I am 17 years old.</p>";
-    OUTPUT.innerHTML += "<p> I am a student of year 12.</p>"; 
+    OUTPUT.innerHTML += "<p> I am a student of year 12.</p>";
     writeLine();
 
     /****************************
@@ -37,23 +37,23 @@ function start() {
     ****************************/
 
     function writeLine() {
-    OUTPUT.innerHTML += "<p> Welcome to the shop</p>" 
-  }
-  }
-    const OUTPUT = document.getElementById("JavaScriptOutput");
-   
-    function getFormInput() { 
+        OUTPUT.innerHTML += "<p> Welcome to the shop</p>"
+    }
+}
+const OUTPUT = document.getElementById("JavaScriptOutput");
+
+function getFormInput() {
     const NAME_FIELD = document.getElementById("nameField");
     let nameUser = NAME_FIELD.value;
     OUTPUT.innerHTML += "<p> Your name is " + nameUser + "</p>";
-    
-    const AGE_FIELD  = document.getElementById("AgeField");
+
+    const AGE_FIELD = document.getElementById("ageField");
     let ageNumber = AGE_FIELD.value;
     OUTPUT.innerHTML += "<p> Your age is " + ageNumber + "</p>";
 
-    const Pocket_Money =  document.getElementById("PocketMoneyField");
+    const Pocket_Money = document.getElementById("PocketMoneyField");
     let money = Pocket_Money.value;
-     OUTPUT.innerHTML += "<p> You have " + money + "</p>";
+    OUTPUT.innerHTML += "<p> You have " + money + "</p>";
 
 
 }
