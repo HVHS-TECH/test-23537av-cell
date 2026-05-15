@@ -1,6 +1,5 @@
 
 /* Paste your code from task 7 here*/
-/* Paste your code from task 5 here */
 console.log("Running T1.js");
 
 //variables
@@ -54,8 +53,6 @@ function getFormInput() {
     const Pocket_Money = document.getElementById("pocketMoney");
     let money = Pocket_Money.value;
     OUTPUT.innerHTML += "<p> You have " + money + "</p>";
-
-
 }
 
 
