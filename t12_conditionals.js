@@ -1,4 +1,5 @@
-/* Paste your code from the last task */
+
+/* Paste your code from task 7 here*/
 console.log("Running T1.js");
 
 //variables
@@ -15,8 +16,7 @@ let myNumber = 15;
 let tenYear = 10;
 let myOthernumber = 17;
 let number = 3;
-let Chocolate = "$4" ;
-function start() {}
+function start() {
     console.log("As of " + userCurrentYear + " you are " + userAge);
     console.log("you have " + pocketMoney + " dollars ");
     console.log("you were born in " + myBirthYear);
@@ -24,28 +24,40 @@ function start() {}
     console.log("you spend half of your money, now you have", + myNumber);
     console.log("Then you get $3 , now you have", + myNumber + number);
 
-    const OUTPUT = document.getElementById("JavaScriptOutput");
+
     OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
     OUTPUT.innerHTML += "<p> Hello " + userName + "</p>";
     OUTPUT.innerHTML += "<p>I am 17 years old.</p>";
     OUTPUT.innerHTML += "<p> I am a student of year 12.</p>";
-    OUTPUT.innerHTML += "<p> Welcome to the shop</p>";
     writeLine();
 
     /****************************
      Functions
     ****************************/
-    function writeLine() {}  
-    function getFormInput() {}
+
+    function writeLine() {
+        OUTPUT.innerHTML += "<p> Welcome to the shop</p>"
+    }
+}
+const OUTPUT = document.getElementById("JavaScriptOutput");
+
+function getFormInput() {
     const NAME_FIELD = document.getElementById("nameField");
     let nameUser = NAME_FIELD.value;
-    OUTPUT.innerHTML = "<p> Your name is " + NAME_FIELD + "</p>";
-    let money = number (Pocket_Money.value);
-    let usersAge = AGE_FIELD.value;
-    OUTPUT.innerHTML += "<p> A chocolate bar costs $4"+ "<p>";
-    if (Pocket_Money >=4){
-    OUTPUT.innerHTML += "<p> you CAN affrod a chocolate bar " + "<p>";
-} else{
-    OUTPUT.innerHTML +=  "<p> Sorry you Can't affrod a chocolate bar " + "<p>";
+    OUTPUT.innerHTML += "<p> Your name is " + nameUser + "</p>";
+
+    const AGE_FIELD = document.getElementById("ageField");
+    let ageUser = AGE_FIELD.value;
+     console.log(AGE_FIELD);
+    OUTPUT.innerHTML += "<p> Your age is " + ageUser + "</p>";
+
+    const Pocket_Money = document.getElementById("pocketMoney");
+    let money = Pocket_Money.value;
+    OUTPUT.innerHTML += "<p> You have " + money + "</p>";
 }
+
+
+
+
+
 
