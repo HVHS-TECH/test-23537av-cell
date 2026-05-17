@@ -58,9 +58,8 @@ function getFormInput() {
     let chocolate = $4;
    if (chocolate >= $4){
     OUTPUT.innerHTML += "<p> You CAN afford a chocolate bar "+ "</p>";
-   }
-   else (choccolate >= $4){
-    
+   } else (chocolate >= $4){
+
    }
 
 
