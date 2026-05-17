@@ -54,7 +54,8 @@ function getFormInput() {
     const Pocket_Money = document.getElementById("pocketMoney");
     let money = Pocket_Money.value;
     OUTPUT.innerHTML += "<p> You have " + money + "</p>";
-    
+    let chocolatePrice = $4;
+    if (chocolate >= $4)
 }
 
 
