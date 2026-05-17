@@ -35,7 +35,7 @@ function start() {}
     /****************************
      Functions
     ****************************/
-    function writeLine() {}
+    function writeLine() {}qa   
     function getFormInput() {}
     const NAME_FIELD = document.getElementById("nameField");
     let nameUser = NAME_FIELD.value;
