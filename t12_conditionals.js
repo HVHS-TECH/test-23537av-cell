@@ -55,11 +55,11 @@ function getFormInput() {
     let money = Pocket_Money.value;
     }
     OUTPUT.innerHTML += "<p> You have " + money + "</p>";
-    let chocolate = $4;
-   if (chocolate >= $4){
+    let chocolate = 4;
+   if (chocolate >= 4){
     OUTPUT.innerHTML += "<p> You CAN afford a chocolate bar "+ "</p>";
    } else (chocolate >= $4){
-
+      OUTPUT.innerHTML += "<p> Sorry you CAN'T afford a chocolate bar "+ "</p>";
    }
 
 
