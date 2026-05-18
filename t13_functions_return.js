@@ -62,4 +62,5 @@ if (chocolate >= 4) {
 }
  function calculateChange(pocketMoney){
     let change = calculateChange (_money, _price);
+    
  }
