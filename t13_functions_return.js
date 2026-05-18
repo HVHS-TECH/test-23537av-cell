@@ -60,3 +60,6 @@ if (chocolate >= 4) {
 } else {
     OUTPUT.innerHTML += "<p> Sorry you CAN'T afford a chocolate bar " + "</p>";
 }
+ function calculateChange(pocketMoney){
+    
+ }
