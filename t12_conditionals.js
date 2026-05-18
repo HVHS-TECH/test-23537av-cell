@@ -58,7 +58,7 @@ function getFormInput() {
 let chocolate = 4;
 if (chocolate >= 4) {
 OUTPUT.innerHTML += "<p> You CAN afford a chocolate bar " + "</p>";
-} else (chocolate <= 4) {
+} else {
     OUTPUT.innerHTML += "<p> Sorry you CAN'T afford a chocolate bar " + "</p>";
 }
 
