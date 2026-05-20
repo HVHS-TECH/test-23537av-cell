@@ -62,6 +62,9 @@ if (chocolate >= 4) {
 }
  function calculateChange(pocketMoney){
     let change = calculateChange (_money, _price);
-    OUTPUT.innerHTML += "<p> You will get  " + ":$" + chocolate + "</p>";
-
+    let price = 4
+    return change;
+    OUTPUT.innerHTML += "<p> You will get  " + ":$" + price  + "</p>";
+    
+    
  }
