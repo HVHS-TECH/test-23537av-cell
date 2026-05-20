@@ -64,16 +64,20 @@ function calculateChange(pocketMoney) {
     return _money - _price;
 }
 function getFormInput() {
-const Pocket_Money = document.getElementById("pocketMoney");
+    const Pocket_Money = document.getElementById("pocketMoney");
     let money = Pocket_Money.value;
     OUTPUT.innerHTML += "<p> You have " + money + "</p>";
- if (chocolate >= 4) {
-    OUTPUT.innerHTML += "<p> You CAN afford a chocolate bar " + "</p>";
+    let price = 96;
+    if (chocolate >= 4) {
+        OUTPUT.innerHTML += "<p> chocolate costs" + ": $ " + chocolate + "</p>";
+        OUTPUT.innerHTML += "<p> You CAN afford a chocolate bar " + "</p>";
+        OUTPUT.innerHTML += "<p> You will get" + ": $ " + price + "</p>";
 
 
 
 
-}
+
+    }
 
 
 
