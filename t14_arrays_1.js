@@ -73,7 +73,12 @@ function getFormInput() {
         OUTPUT.innerHTML += "<p> You will get" + ": $ " + price + " change </p>";
     }
 }
-let chocolateArray = { "You loath chocolate" , "Chocolate is meh" , }
+function getFormInput() {
+    let chocolateArray = { "You loath chocolate", "Chocolate is meh" , "Chocolate is pretty good" , "Chocolate is the best thing EVER!!!!" };
+    
 
+
+
+}
 
 
