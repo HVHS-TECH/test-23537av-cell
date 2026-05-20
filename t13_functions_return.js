@@ -66,5 +66,4 @@ if (chocolate >= 4) {
     return change;
     OUTPUT.innerHTML += "<p> You will get  " + ":$" + price  + "</p>";
     
-    
  }
