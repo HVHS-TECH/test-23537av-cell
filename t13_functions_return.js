@@ -71,12 +71,7 @@ function getFormInput() {
     if (chocolate >= 4) {
         OUTPUT.innerHTML += "<p> chocolate costs" + ": $ " + chocolate + "</p>";
         OUTPUT.innerHTML += "<p> You will get" + ": $ " + price +  " change </p>";
-
-
-
-
-
-    }
+}
 
 
 
