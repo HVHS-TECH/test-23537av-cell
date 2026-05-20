@@ -74,10 +74,10 @@ function getFormInput() {
     }
 }
 function getFormInput() {
-    let chocolateArray = ["You loath chocolate", "Chocolate is meh" , "Chocolate is pretty good" , "Chocolate is the best thing EVER!!!!"];
+    let messages = ["You loath chocolate", "Chocolate is meh" , "Chocolate is pretty good" , "Chocolate is the best thing EVER!!!!"];
     const CHOCOLATE_FIELD = document.getElementById("chocolateField");
     let userChoice = CHOCOLATE_FIELD.value;
-    OUTPUT.innerHTML += "<p> You chose:" + chocolateArray [userChoice] + "</p>";
+    OUTPUT.innerHTML += "<p> You chose:" + messages [userChoice] + "</p>";
 }
 
 
