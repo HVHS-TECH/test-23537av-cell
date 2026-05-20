@@ -63,8 +63,19 @@ if (chocolate >= 4) {
 function calculateChange(pocketMoney) {
     return _money - _price;
 }
-let change = calculateChange(_money, _price);
-let price = 4
-return change;
-OUTPUT.innerHTML += "<p> You will get  " + ":$" + price + "</p>";
+function getFormInput() {
+const Pocket_Money = document.getElementById("pocketMoney");
+    let money = Pocket_Money.value;
+    OUTPUT.innerHTML += "<p> You have " + money + "</p>";
 }
+
+
+
+
+
+
+
+}
+
+
+
