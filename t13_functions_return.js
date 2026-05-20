@@ -64,4 +64,5 @@ if (chocolate >= 4) {
     let change = calculateChange (_money, _price);
     return change;
     OUTPUT.innerHTML += "<p> You will get  " + ":$" +  + "</p>";
+    
  }
