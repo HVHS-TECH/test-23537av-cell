@@ -78,9 +78,6 @@ function getFormInput() {
     const CHOCOLATE_FIELD = document.getElementById("chocolateField");
     let userChoice = CHOCOLATE_FIELD.value;
     OUTPUT.innerHTML += "<p> You chose:" + chocolateArray [userChoice] + "</p>";
-
-
-
 }
 
 
