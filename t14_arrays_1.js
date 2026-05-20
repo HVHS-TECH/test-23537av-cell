@@ -75,6 +75,7 @@ function getFormInput() {
 }
 function getFormInput() {
     let chocolateArray = ["You loath chocolate", "Chocolate is meh" , "Chocolate is pretty good" , "Chocolate is the best thing EVER!!!!"];
+    const 
     let choice = CHOOSE_FIELD.value;
     OUTPUT.innerHTML += "<p> You chose:" + chocolateArray [choice] + "</p>";
 
