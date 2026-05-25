@@ -77,8 +77,7 @@ function getFormInput() {
     let messages = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER!!!!"];
     const CHOCOLATE_FIELD = document.getElementById("ChocolateField");
     let userChoice = CHOCOLATE_FIELD.value;
-    OUTPUT.innerHTML += "<p> You chose:" + messages[userChoice] + "</p>";
-    OUTPUT.innerHTML += "<p> On a scale of " + 0 - 3 + " how much do you like chocolate + </p>";
+    OUTPUT.innerHTML += "<p> You chose: " + messages[userChoice] + "</p>";
 }
 
 
