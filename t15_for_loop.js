@@ -9,7 +9,7 @@ console.log("Running T1.js");
 /****************************
 Main code
 ****************************/
-
+function getFormInput() {}
 
 
 
