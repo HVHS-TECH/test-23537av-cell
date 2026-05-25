@@ -1,1 +1,16 @@
-/* Paste your code from the last task */
+/****************************
+This is a block comment.
+****************************/
+
+console.log("Running T1.js");
+
+//variables
+
+/****************************
+Main code
+****************************/
+
+
+
+
+
