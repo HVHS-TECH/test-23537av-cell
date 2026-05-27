@@ -14,7 +14,9 @@ const VERSE_FIELD = document.getElementById("verseField");
 let bottle = VERSE_FIELD.value;
 OUTPUT.innerHTML += "";
 for(let i = 1; i < 21; i++  ){
-    OUTPUT.innerHTML += "<p> " "</p>";
+    OUTPUT.innerHTML += "<p> 100 bottles of milk on the wall " + "<p>"
+    OUTPUT.innerHTML += "<p> 99 bottles of milk on the wall" + "<p> "
+
 
 
 }
