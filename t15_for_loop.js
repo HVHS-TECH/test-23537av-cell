@@ -9,7 +9,14 @@ console.log("Running T1.js");
 /****************************
 Main code
 ****************************/
-function getFormInput() {}
+function getFormInput() {
+const VERSE_FIELD = document.getElementById("verseField");
+
+
+
+
+
+}
 
 
 
