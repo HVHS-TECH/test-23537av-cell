@@ -15,7 +15,7 @@ let bottle = VERSE_FIELD.value;
 let bottles = 100
 OUTPUT.innerHTML += "";
 for(let i = 1; i < 21; i++  ){
-if (bottles < 100)
+if (bottles >= 100)
     OUTPUT.innerHTML += "<p> 100 bottles of milk on the wall " + "<p>"
     OUTPUT.innerHTML += "<p> 99 bottles of milk on the wall" + "<p> "
 
