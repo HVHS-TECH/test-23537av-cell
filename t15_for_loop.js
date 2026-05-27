@@ -2,8 +2,8 @@
 This is a block comment.
 ****************************/
 
-console.log("Running T1.js");
-console.log("Running 54.js");
+
+console.log("for loops 54.js");
 
 //variables
 
