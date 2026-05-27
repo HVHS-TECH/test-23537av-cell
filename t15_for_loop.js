@@ -13,7 +13,11 @@ function getFormInput() {
 const VERSE_FIELD = document.getElementById("verseField");
 let bottle = VERSE_FIELD.value;
 OUTPUT.innerHTML += "";
-for()
+for(let i = 1; i < 21; i++  ){
+    OUTPUT.innerHTML += "<p> " "</p>";
+
+
+}
 
 
 
