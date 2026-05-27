@@ -18,7 +18,7 @@ function getFormInput() {
         if (bottles === 1) {
         }
         OUTPUT.innerHTML += "<p> 100 bottles of milk on the wall " + "<p>"
-        OUTPUT.innerHTML += "<p>100 bottles of milk on the wall
+        OUTPUT.innerHTML += "<p>100 bottles of milk on the wall " + "<p>"
     }
 
 
