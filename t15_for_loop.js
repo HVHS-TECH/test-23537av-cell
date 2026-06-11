@@ -17,10 +17,14 @@ function getFormInput() {
     OUTPUT.innerHTML += "";
     for (let i = 1; i < 21; i--) {
         if (bottles === 1) {
-        }
         OUTPUT.innerHTML += "<p> 1 green bottle hanging on the wall " + "<p>"
-        OUTPUT.innerHTML += " " + "<p> There will be no green bottles hanging on the wall +"<p>"
-
+        OUTPUT.innerHTML += "<p> There will be no green bottles hanging on the wall" + "<p>"  
+         }
+        else { 
+            OUTPUT.innerHTML += "<p> "
+        
+        
+        }
 
 
     }
