@@ -18,8 +18,9 @@ function getFormInput() {
     for (let i = 1; i < 21; i--) {
         if (bottles === 1) {
         }
-        OUTPUT.innerHTML += "<p> 100 bottles of milk on the wall " + "<p>"
-        OUTPUT.innerHTML += " " + "<p>"
+        OUTPUT.innerHTML += "<p> 10 green bottles hanging on the wall " + "<p>"
+        OUTPUT.innerHTML += " " + "<p>And if 1 green bottle should accidentally fall" + "<p>"
+        
     }
 
 
