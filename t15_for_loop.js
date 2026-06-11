@@ -21,7 +21,8 @@ function getFormInput() {
         OUTPUT.innerHTML += "<p> And if 1 green botlle should accidentally fall " + "<p>"  
          }
         else { 
-            OUTPUT.innerHTML += "<p> There will be no green bottles hanging on the wall"
+            OUTPUT.innerHTML += "<p> There will be no green bottles hanging on the wall" + "<p>"  
+         }
         
         
         }
