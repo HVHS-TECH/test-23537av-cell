@@ -33,7 +33,7 @@ function getFormInput() {
 
 }
    for (let count = 100 ; count > 0; count--) {
-   console.log("Cnt count: "+ count);
+   console.log("Cnt count: "+ count + ".");
    
    }
 
