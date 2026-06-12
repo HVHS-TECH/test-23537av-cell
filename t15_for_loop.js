@@ -32,7 +32,7 @@ function getFormInput() {
 
 
 }
-   for (let count = 80 ; count < 101; count ++) {
+   for (let count = 101 ; count > ; count--) {
    console.log("Cnt count: "+ count);
 
    }
