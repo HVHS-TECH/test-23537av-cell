@@ -32,8 +32,8 @@ function getFormInput() {
 
 
 }
-   for (let count = 0 ; count < 10; count ++) {
-   console.log("Current count: "+ count);
+   for (let count = 80 ; count < 101; count ++) {
+   console.log("Cnt count: "+ count);
 
    }
 
