@@ -34,6 +34,8 @@ function getFormInput() {
 
 for (let count = 10; count > 0; count --) {
     console.log(+ count + " green bottles hanging on the wall. ");
+     console.log(+ count + " green bottles hanging on the wall. ");
+
 
 }
 
