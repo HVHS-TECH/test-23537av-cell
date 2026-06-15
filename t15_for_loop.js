@@ -23,15 +23,15 @@ function getFormInput() {
         else {
             OUTPUT.innerHTML += "<p>" + bottles + "green bottles hanging on the wall " + "<p>"
             OUTPUT.innerHTML += "<p>" + "And if 1 green botlle should accidentally fall " + "<p>"
-            OUTPUT.innerHTML += "<p>" + "There will be 9 green bottles hanging on the wall " + (bottles - 1); }
-        if 
-
-
-
+            OUTPUT.innerHTML += "<p>" + "There will be 9 green bottles hanging on the wall " + (bottles - 1);
+        }
     }
-
-
 }
+
+
+
+
+
 for (let count = 100; count > 0; count--) {
     console.log("Cnt count: " + count + ".");
 
