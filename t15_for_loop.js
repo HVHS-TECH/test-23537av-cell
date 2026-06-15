@@ -32,7 +32,7 @@ function getFormInput() {
 
 
 
-for (let count = 100; count > 0; count--) {
+for (let count = 0; count < 10; count++) {
     console.log(" 10 green bottles hanging on the wall ");
 
 }
