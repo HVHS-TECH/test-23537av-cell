@@ -28,9 +28,11 @@ function getFormInput() {
     }
 }
         if (bottle <= 1 ){
-             OUTPUT.innerHTML += "<p> 10 green bottles hanging on the wall " + "<p>"
+             OUTPUT.innerHTML += "<p> green bottles hanging on the wall " + "<p>"
         }
-
+        else (bottle >= 1){
+            OUTPUT.innerHTML += "<p> green bottle hanging on the wall " + "<p>"
+        }
 
 
 
