@@ -27,21 +27,21 @@ function getFormInput() {
         }
     }
 }
-        if (bottle <= 1 ){
-             OUTPUT.innerHTML += "<p> green bottles hanging on the wall " + "<p>"
-        }
-        else (bottle >= 1) {
-            OUTPUT.innerHTML += "<p> green bottle hanging on the wall " + "<p>"
-        }
+if ((bottle - 1 == 1)) {
+    OUTPUT.innerHTML += "<p> green bottles hanging on the wall " + "<p>"
+}
+else {
+    OUTPUT.innerHTML += "<p> green bottle hanging on the wall " + "<p>"
+}
 
 
 
-for (let count = 10; count > 0; count --) {
+for (let count = 10; count > 0; count--) {
     console.log(" ");
     console.log(+ count + " green bottles hanging on the wall. ");
     console.log(+ count + " green bottles hanging on the wall. ");
     console.log("And if one green botlle should accidentally fall. ");
-    console.log("there will be " + (count -1) + " green bottles hanging on the wall. ");
+    console.log("there will be " + (count - 1) + " green bottles hanging on the wall. ");
 
 
 
