@@ -23,7 +23,7 @@ function getFormInput() {
         else {
             OUTPUT.innerHTML += "<p>" + bottles + "green bottles hanging on the wall " + "<p>"
             OUTPUT.innerHTML += "<p>" + "And if 1 green botlle should accidentally fall " + "<p>"
-            OUTPUT.innerHTML += "<p>" + "There will be 9 green bottles hanging on the wall " + (bottles - 1);
+            OUTPUT.innerHTML += "<p>" + "There will be" + (bottles - 1) + "green bottles hanging on the wall " + (bottles - 1);
         }
     }
 }
