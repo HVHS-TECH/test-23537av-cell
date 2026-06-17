@@ -27,7 +27,9 @@ function getFormInput() {
         }
     }
 }
-
+        if (bottle <= 1 ){
+             OUTPUT.innerHTML += "<p> 10 green bottles hanging on the wall " + "<p>"
+        }
 
 
 
