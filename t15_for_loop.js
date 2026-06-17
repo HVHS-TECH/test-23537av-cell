@@ -26,13 +26,6 @@ function getFormInput() {
             OUTPUT.innerHTML += "<p>" + "There will be 9 green bottles hanging on the wall " + (bottles - 1);
         }
     }
-}
-if (bottle - 1 == 1) {
-    OUTPUT.innerHTML += "<p> green bottles hanging on the wall " + "<p>"
-}
-else {
-    OUTPUT.innerHTML += "<p> green bottle hanging on the wall " + "<p>"
-}
 
 
 
