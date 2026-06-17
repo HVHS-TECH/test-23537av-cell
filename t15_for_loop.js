@@ -36,7 +36,7 @@ for (let count = 10; count > 0; count--) {
     console.log("And if one green botlle should accidentally fall. ");
     console.log("there will be " + (count - 1) + " green bottles hanging on the wall. ")
 }
-if (i <= 1) {
+if (count <= 1) {
     console.log(" green bottle hanging on the wall. ");
 } else {
     console.log( "green bottles hanging on the wall. ");
