@@ -14,7 +14,7 @@ function getFormInput() {
     const VERSE_FIELD = document.getElementById("verseField");
     let bottle = VERSE_FIELD.value;
     OUTPUT.innerHTML += "";
-    for (let bottles = verses; bottles <= 1; bottles--) {
+    for (let bottles = VERSE_FIELD; bottles <= 1; bottles--) {
         if (bottles === 1) {
             OUTPUT.innerHTML += "<p> 10 green bottles hanging on the wall " + "<p>"
             OUTPUT.innerHTML += "<p> And if 1 green botlle should accidentally fall " + "<p>"
