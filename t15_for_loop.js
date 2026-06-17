@@ -27,7 +27,7 @@ function getFormInput() {
         }
     }
 }
-if ((bottle - 1 == 1)) {
+if (bottle - 1 == 1) {
     OUTPUT.innerHTML += "<p> green bottles hanging on the wall " + "<p>"
 }
 else {
