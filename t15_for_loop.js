@@ -14,7 +14,7 @@ function getFormInput() {
     const VERSE_FIELD = document.getElementById("verseField");
     let bottle = VERSE_FIELD.value;
     OUTPUT.innerHTML += "";
-    for (let bottles = 10 ; bottles > 0; bottles--) {
+    for (let bottles = 10; bottles > 0; bottles--) {
         if (bottles === 1) {
             OUTPUT.innerHTML += "<p> 10 green bottles hanging on the wall " + "<p>"
             OUTPUT.innerHTML += "<p> And if 1 green botlle should accidentally fall " + "<p>"
@@ -34,7 +34,6 @@ for (let count = 10; count > 0; count--) {
     console.log(+ count + " green bottles hanging on the wall. ");
     console.log(+ count + " green bottles hanging on the wall. ");
     console.log("And if one green botlle should accidentally fall. ");
-
     if (count <= 2) {
         console.log("there will be " + (count - 1) + " green bottle hanging on the wall. ");
     } else {
