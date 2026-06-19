@@ -31,11 +31,11 @@ function getFormInput() {
 
 for (let count = 10; count > 0; count--) {
     console.log(" ");
-    console.log(+ count + " green bottles hanging on the wall. ");
-    console.log(+ count + " green bottles hanging on the wall. ");
     console.log("And if one green botlle should accidentally fall. ");
-    if (count <= 0) { 
+    if (count >= 0) { 
       console.log( + count + " green bottle hanging on the wall. ");
+} else{ 
+     console.log(" no green bottles hanging on the wall. ");
 
 }
     if (count <= 2) {
