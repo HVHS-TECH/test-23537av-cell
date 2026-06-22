@@ -17,8 +17,9 @@ function getFormInput() {
     for (let bottles = 10; bottles > 0; bottles--) {
         if (bottles <= 1) {
             OUTPUT.innerHTML += "<p>" + (count)+ " green bottles hanging on the wall " + "<p>"
+
             OUTPUT.innerHTML += "<p> And if 1 green botlle should accidentally fall " + "<p>"
-            OUTPUT.innerHTML += "<p> There will be "+ (count -1 ) + "green bottles hanging on the wall"+ <p>"
+            OUTPUT.innerHTML += "<p> There will be "+ (count -1 ) + "green bottles hanging on the wall"+ "<p>"
         }
         else {
             OUTPUT.innerHTML += "<p>" + bottles + "green bottles hanging on the wall " + "<p>"
@@ -27,6 +28,10 @@ function getFormInput() {
         }
     }
 }
+
+
+
+
 
 
 for (let count = 10; count > 0; count--) {
