@@ -8,8 +8,6 @@ console.log("for loops 54.js");
 //variables
 
 /****************************
-Main code
-****************************/
 function getFormInput() {
     const VERSE_FIELD = document.getElementById("verseField");
     let bottle = VERSE_FIELD.value;
@@ -18,7 +16,7 @@ function getFormInput() {
         if (bottles <= 1) {
             OUTPUT.innerHTML += "<p>" + (count) + " green bottle hanging on the wall " + "<p>"
             OUTPUT.innerHTML += "<p>" + (count) + " green bottle hanging on the wall " + "<p>"
-        } else {
+        } else if  {
             OUTPUT.innerHTML += "<p>" + (count) + " green bottles hanging on the wall " + "<p>"
             OUTPUT.innerHTML += "<p>" + (count) + " green bottles hanging on the wall " + "<p>"
         }
@@ -32,6 +30,8 @@ function getFormInput() {
         }
     }
 }
+
+****************************/
 
 
 
