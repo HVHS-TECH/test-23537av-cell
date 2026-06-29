@@ -56,7 +56,7 @@ for (let count = 10; count > 0; count--) {
 
     if (count <= 2) {
         console.log("there will be " + (count - 1) + " green bottle hanging on the wall ");
-    } else if {
+    } else if (count <= 2){
         console.log("there will be " + (count - 1) + " green bottles hanging on the wall ");
     } else if  (count - 1 === 0) {
         console.log("there will be no green bottles hanging on the wall ");
