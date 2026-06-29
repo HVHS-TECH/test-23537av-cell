@@ -63,7 +63,7 @@ for (let count = 10; count > 0; count--) {
     } else if (count - 1 === 1) {
         console.log("there will be 1 green bottle hanging on the wall ");                             
     } else {
-        console.log("there will be " + (count - 1) + " green bottles hanging on the wall ");
+        console.log("there will be " + (count - 1) + " green bottles hanging on the wall ");gvf
     }
 }
 
