@@ -38,6 +38,7 @@ function getFormInput() {
 
 
 
+
 for (let count = 10; count > 0; count--) {
 
 
@@ -61,4 +62,4 @@ for (let count = 10; count > 0; count--) {
     } else {
         console.log("There will be " + (count - 1) + " green bottles hanging on the wall.");
     }
-}fb
+}
