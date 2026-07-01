@@ -79,6 +79,7 @@ function getFormInput() {
     const shoppingField = document.getElementById("shoppingField");
     let items= shoppingField.value;
     OUTPUT.innerHTML += "<p> You have added <itmem> to ypur shopping list : " + messages[userChoice] + "</p>";
+    
 
 }
 
