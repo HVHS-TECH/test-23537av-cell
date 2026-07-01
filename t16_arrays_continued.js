@@ -83,7 +83,7 @@ function getFormInput() {
 let shoppingList = [];
     Function addItem() {
     const shoppingField = document.getElementById("shoppingField");
-    let userItem = SHOPPING_FIELD.value;
+    let userItem = shoppingField.value;
 
 
 }
