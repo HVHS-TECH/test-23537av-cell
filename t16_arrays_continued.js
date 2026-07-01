@@ -75,17 +75,18 @@ function getFormInput() {
     }
 }
 function getFormInput() {
-    let items = ["Chocolate", "Chips", "Biscuits", "Cupcakes"];
+    let messages = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER!!!!"];
+    const CHOCOLATE_FIELD = document.getElementById("ChocolateField");
+    let userChoice = CHOCOLATE_FIELD.value;
+    OUTPUT.innerHTML += "<p> You chose: " + messages[userChoice] + "</p>";
+}
+let shoppingList = [];
+    Function addItem() {
     const shoppingField = document.getElementById("shoppingField");
-    let items= shoppingField.value;
-    OUTPUT.innerHTML += "<p> You have added <itmem> to ypur shopping list : " + messages[userChoice] + "</p>";
+    let userItem = SHOPPING_FIELD.value;
 
-    let shoppingList = [];
-    Function additem() {
-
-        
-    }
 
 }
+
 
 
