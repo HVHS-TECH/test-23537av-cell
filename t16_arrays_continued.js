@@ -76,8 +76,8 @@ function getFormInput() {
 }
 function getFormInput() {
     let messages = ["Chocolate", "Chips", "Biscuits", "Cupcakes"];
-    const CHOCOLATE_FIELD = document.getElementById("ChocolateField");
-    let userChoice = CHOCOLATE_FIELD.value;
+    const shoppingField = document.getElementById("shoppingField");
+    let userChoice = shoppingField.value;
     OUTPUT.innerHTML += "<p> You chose: " + messages[userChoice] + "</p>";
 
 }
