@@ -18,7 +18,7 @@ function getFormInput() {
         if (bottles <= 1) {
             OUTPUT.innerHTML += "<p>" + (count) + " green bottle hanging on the wall " + "<p>"
             OUTPUT.innerHTML += "<p>" + (count) + " green bottle hanging on the wall " + "<p>"
-        } else if  {
+        } else {
             OUTPUT.innerHTML += "<p>" + (count) + " green bottles hanging on the wall " + "<p>"
             OUTPUT.innerHTML += "<p>" + (count) + " green bottles hanging on the wall " + "<p>"
         }
