@@ -20,7 +20,7 @@ function getFormInput() {
             OUTPUT.innerHTML += "<p>" + (bottles) + " green bottle hanging on the wall. <p>"
         } else {
             OUTPUT.innerHTML += "<p>" + (bottles) + " green bottles hanging on the wall. <p>"
-            OUTPUT.innerHTML += "<p>" + (bottles) + " green bottles hanging on the wall. <p>"
+            OUTPUT.innerHTML += "<p>" + (bottles) + " green bottles hanging on the wall <p>"
         }
         OUTPUT.innerHTML += "<p> And if 1 green botlle should accidentally fall. <p>"
 
