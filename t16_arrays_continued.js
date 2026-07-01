@@ -81,7 +81,10 @@ function getFormInput() {
     OUTPUT.innerHTML += "<p> You have added <itmem> to ypur shopping list : " + messages[userChoice] + "</p>";
 
     let shoppingList = [];
-    Function additem
+    Function additem() {
+
+        
+    }
 
 }
 
