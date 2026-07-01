@@ -24,9 +24,9 @@ function getFormInput() {
         }
         OUTPUT.innerHTML += "<p> And if 1 green botlle should accidentally fall " + "<p>"
 
-        if (count - 1 === 0){
+        if (bottles - 1 === 0){
             OUTPUT.innerHTML += "<p> there will be no green bottles hanging on the wall " + "<p>"
-        } else if (count - 1 === 1) {
+        } else if (bottles - 1 === 1) {
             OUTPUT.innerHTML += "<p> There will be 1 green bottle hanging on the wall." + "<p>"
         } else {
             "There will be " + (bottles- 1) + " green bottles hanging on the wall."
