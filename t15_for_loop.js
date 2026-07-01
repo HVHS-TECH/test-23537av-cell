@@ -10,6 +10,8 @@ console.log("for loops 54.js");
 /****************************
  main code
  ****************************/
+const OUTPUT = document.getElementById("JavaScriptOutput");
+
 function getFormInput() {
     const VERSE_FIELD = document.getElementById("verseField");
     let bottle = VERSE_FIELD.value;
