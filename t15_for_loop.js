@@ -8,6 +8,8 @@ console.log("for loops 54.js");
 //variables
 
 /****************************
+Main code
+****************************/
 function getFormInput() {
     const VERSE_FIELD = document.getElementById("verseField");
     let bottle = VERSE_FIELD.value;
@@ -31,7 +33,6 @@ function getFormInput() {
     }
 }
 
-****************************/
 
 
 
