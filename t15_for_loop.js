@@ -23,7 +23,7 @@ function getFormInput() {
             OUTPUT.innerHTML += "<p>" + (count) + " green bottles hanging on the wall " + "<p>"
         }
               OUTPUT.innerHTML += "<p> And if 1 green botlle should accidentally fall " + "<p>"
-
+        if ( count - 1 === 0)
         OUTPUT.innerHTML += "<p> There will be " + (count - 1) + "green bottles hanging on the wall" + "<p>"
         else {
             OUTPUT.innerHTML += "<p>" + bottles + "green bottles hanging on the wall " + "<p>"
