@@ -15,23 +15,23 @@ function getFormInput() {
     let bottle = VERSE_FIELD.value;
     OUTPUT.innerHTML = "";
     for (let bottles = 10; bottles > 0; bottles--) {
-        if (bottles <= 1) {
-            OUTPUT.innerHTML += "<p>" + (bottles) + " green bottle hanging on the wall " + "<p>"
-            OUTPUT.innerHTML += "<p>" + (bottles) + " green bottle hanging on the wall " + "<p>"
+        if (bottles === 1) {
+            OUTPUT.innerHTML += "<p>" + (bottles) + " green bottle hanging on the wall. <p>"
+            OUTPUT.innerHTML += "<p>" + (bottles) + " green bottle hanging on the wall. <p>"
         } else {
-            OUTPUT.innerHTML += "<p>" + (bottles) + " green bottles hanging on the wall " + "<p>"
-            OUTPUT.innerHTML += "<p>" + (bottles) + " green bottles hanging on the wall " + "<p>"
+            OUTPUT.innerHTML += "<p>" + (bottles) + " green bottles hanging on the wall. <p>"
+            OUTPUT.innerHTML += "<p>" + (bottles) + " green bottles hanging on the wall. <p>"
         }
-        OUTPUT.innerHTML += "<p> And if 1 green botlle should accidentally fall " + "<p>"
+        OUTPUT.innerHTML += "<p> And if 1 green botlle should accidentally fall. <p>"
 
-        if (bottles - 1 === 0){
-            OUTPUT.innerHTML += "<p> there will be no green bottles hanging on the wall " + "<p>"
+        if (bottles - 1 === 0) {
+            OUTPUT.innerHTML += "<p> there will be no green bottles hanging on the wall. <p>"
         } else if (bottles - 1 === 1) {
-            OUTPUT.innerHTML += "<p> There will be 1 green bottle hanging on the wall." + "<p>"
+            OUTPUT.innerHTML += "<p> There will be 1 green bottle hanging on the wall. <p>"
         } else {
-            "There will be " + (bottles- 1) + " green bottles hanging on the wall."
+            "There will be " + (bottles - 1) + " green bottles hanging on the wall. <p>"
         }
-}
+    }
 }
 
 
