@@ -14,7 +14,7 @@ function getFormInput() {
     const VERSE_FIELD = document.getElementById("verseField");
     let bottle = VERSE_FIELD.value;
     OUTPUT.innerHTML = "";
-    for (let bottles = 10; bottles > 0; bottles--) {
+    for (let bottles = Number (10); bottles > 0; bottles--) {
         if (bottles === 1) {
             OUTPUT.innerHTML += "<p>" + (bottles) + " green bottle hanging on the wall. <p>"
             OUTPUT.innerHTML += "<p>" + (bottles) + " green bottle hanging on the wall. <p>"
