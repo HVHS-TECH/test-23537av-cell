@@ -75,9 +75,9 @@ function getFormInput() {
     }
 }
 function getFormInput() {
-    let messages = ["Chocolate", "Chips", "Biscuits", "Cupcakes"];
+    let items = ["Chocolate", "Chips", "Biscuits", "Cupcakes"];
     const shoppingField = document.getElementById("shoppingField");
-    let userChoice = shoppingField.value;
+    let items= shoppingField.value;
     OUTPUT.innerHTML += "<p> You have added <itmem> to ypur shopping list : " + messages[userChoice] + "</p>";
 
 }
