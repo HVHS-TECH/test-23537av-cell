@@ -78,7 +78,7 @@ function getFormInput() {
     let messages = ["Chocolate", "Chips", "Biscuits", "Cupcakes"];
     const shoppingField = document.getElementById("shoppingField");
     let userChoice = shoppingField.value;
-    OUTPUT.innerHTML += "<p> You chose: " + messages[userChoice] + "</p>";
+    OUTPUT.innerHTML += "<p> You have added <itmem> to ypur shopping list : " + messages[userChoice] + "</p>";
 
 }
 
