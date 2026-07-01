@@ -16,11 +16,11 @@ function getFormInput() {
     OUTPUT.innerHTML = "";
     for (let bottles = Number (10); bottles > 0; bottles--) {
         if (bottles === 1) {
-            OUTPUT.innerHTML += "<p>" + (bottles) + " green bottle hanging on the wall. <p>"
-            OUTPUT.innerHTML += "<p>" + (bottles) + " green bottle hanging on the wall. <p>"
+            OUTPUT.innerHTML += "<p>" + bottles + " green bottle hanging on the wall. <p>"
+            OUTPUT.innerHTML += "<p>" + bottles + " green bottle hanging on the wall. <p>"
         } else {
-            OUTPUT.innerHTML += "<p>" + (bottles) + " green bottles hanging on the wall. <p>"
-            OUTPUT.innerHTML += "<p>" + (bottles) + " green bottles hanging on the wall <p>"
+            OUTPUT.innerHTML += "<p>" + bottles + " green bottles hanging on the wall. <p>"
+            OUTPUT.innerHTML += "<p>" + bottles + " green bottles hanging on the wall <p>"
         }
         OUTPUT.innerHTML += "<p> And if 1 green botlle should accidentally fall. <p>"
 
