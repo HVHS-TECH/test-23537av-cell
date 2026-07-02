@@ -84,7 +84,7 @@ let shoppingList = [];
     Function addItem() {
     const shoppingField = document.getElementById("shoppingField");
     let userItem = shoppingField.value;
-    
+    item.push("")
 
 }
 
