@@ -81,14 +81,16 @@ function getFormInput() {
 }
 const OUTPUT = document.getElementById("JavaScriptOutput");
 let shoppingList = [];
-    Function addItem () {
+    Function addItem() {
     const shoppingField = document.getElementById("shoppingField");
     let userItem = shoppingField.value;
     item.push(userItem)
     OUTPUT.innerHTML += "<p> You have added" + userItem + "to the list </p>";
 }
-function showList () {
-    
+function showList() {
+    OUTPUT.innerHTML += "<h3> these are the itmes to your shopping list: </h3>";
+    for (let i = 0 ; shoppingList.length ; )
+
 
 
 
