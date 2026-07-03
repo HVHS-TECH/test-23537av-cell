@@ -40,7 +40,7 @@ function start() {
         OUTPUT.innerHTML += "<p> Welcome to the shop</p>"
     }
 }
-
+const OUTPUT = document.getElementById("JavaScriptOutput");
 function getFormInput() {
     const NAME_FIELD = document.getElementById("nameField");
     let nameUser = NAME_FIELD.value;
@@ -80,8 +80,6 @@ function getFormInput() {
     OUTPUT.innerHTML += "<p> You chose: " + messages[userChoice] + "</p>";
 }
 
-
-const OUTPUT = document.getElementById("JavaScriptOutput");
 let shoppingList = [];
     function addItem() {
     const shoppingField = document.getElementById("shoppingField");
@@ -89,6 +87,7 @@ let shoppingList = [];
     item.push(userItem)
     OUTPUT.innerHTML += "<p> You have added" + userItem + "to the list </p>";
 }
+
 function showList() {
     OUTPUT.innerHTML += "<h3> these are the itmes to your shopping list: </h3>";
     for (let i = 0 ; shoppingList.length ; i++ ) {
