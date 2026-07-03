@@ -20,8 +20,21 @@
   <p>Open the console <code>(Ctrl-shift-i)</code> to see the messages.</p>
 
   <p><br><br><i>Copy your HTML from the last task and keep building.</i><br><br><br><br></p>
+   <form onsubmit="return false;"></form>
+  <label for="shoppingField"> ShoppingField :</label>
+  <input type="text" id="shoppingField" name=" shopping" placeHolder="Enter your item">
+  <input type="submit"  value = "Add Item"  onClick="addItem()">
+  </form>
+  <br><br>
+  <br><br>
 
-  <div id="spaceForJavaScriptOutput">
+  <label for> Show List :</label>
+  <input type="submit" value ="Show List"  onClick="showList()">
+  <br><br>
+
+
+
+  <div id="JavaScriptOutput">
 
     The output of your script will go here.
 
