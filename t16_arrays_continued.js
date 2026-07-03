@@ -56,7 +56,7 @@ function getFormInput() {
 }
 let chocolate = 4;
 if (chocolate >= 4) {
-    OUTPUT.innerHTML += "<p> You CAN afford a chocolate bar " + "</p>";
+    
 } else {
     OUTPUT.innerHTML += "<p> Sorry you CAN'T afford a chocolate bar " + "</p>";
 }
@@ -89,7 +89,7 @@ function addItem() {
 }
 
 function showList() {
-    OUTPUT.innerHTML += "<h3> these are the itmes to your shopping list: </h3>";
+    OUTPUT.innerHTML += "<h3> These are the itmes to your shopping list: </h3>";
     for (let i = 0; shoppingList.length; i++) {
         OUTPUT.innerHTML += "<p>" + shoppingList[i] + "</p>";
     }
