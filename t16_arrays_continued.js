@@ -37,7 +37,7 @@ function start() {
     ****************************/
 
     function writeLine() {
-        
+        OUTPUT.innerHTML += "<p> Welcome to the shop</p>"
     }
 }
 const OUTPUT = document.getElementById("JavaScriptOutput");
@@ -79,6 +79,7 @@ function getFormInput() {
     let userChoice = CHOCOLATE_FIELD.value;
     OUTPUT.innerHTML += "<p> You chose: " + messages[userChoice] + "</p>";
 }
+
 let shoppingList = [];
 function addItem() {
     const shoppingField = document.getElementById("shoppingField");
