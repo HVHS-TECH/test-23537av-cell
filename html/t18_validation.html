@@ -20,9 +20,9 @@
   <p>Open the console <code>(Ctrl-shift-i)</code> to see the messages.</p>
 
   <p><br><br><i>Copy your HTML from the last task and keep building.</i><br><br><br><br></p>
-   <form onsubmit="return false;"></form>
+   <form id = "welcomeForm" onsubmit="return false;"></form>
   <label for="shoppingField"> ShoppingField :</label>
-  <input type="text" id="shoppingField" name=" shopping" placeHolder="Enter your item">
+  <input type="number" id="shoppingField" name=" shopping" placeHolder="Enter your item"  required>
   <input type="submit"  value = "Add Item"  onClick="addItem()">
   </form>
   <br><br>
