@@ -79,12 +79,12 @@ function getFormInput() {
     let userChoice = CHOCOLATE_FIELD.value;
     OUTPUT.innerHTML += "<p> You chose: " + messages[userChoice] + "</p>";
 }
-
+const OUTPUT = document.getElementById("JavaScriptOutput");
 let shoppingList = [];
     function addItem() {
     const shoppingField = document.getElementById("shoppingField");
     let userItem = shoppingField.value;
-    item.push(userItem)
+    item.push("userItem")
     OUTPUT.innerHTML += "<p> You have added" + userItem + "to the list </p>";
 }
 
