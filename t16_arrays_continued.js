@@ -37,7 +37,7 @@ function start() {
     ****************************/
 
     function writeLine() {
-        OUTPUT.innerHTML += "<p> Welcome to the shop</p>"
+        
     }
 }
 const OUTPUT = document.getElementById("JavaScriptOutput");
