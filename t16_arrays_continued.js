@@ -83,8 +83,8 @@ let shoppingList = [];
 function addItem() {
     const shoppingField = document.getElementById("shoppingField");
     let userItem = shoppingField.value;
-    item.push("userItem")
-    OUTPUT.innerHTML += "<p> You have added" + userItem + "to the list </p>";
+    shoppingList.push("userItem")
+    OUTPUT.innerHTML += "<p> You have added " + userItem + " to the list </p>";
 }
 
 function showList() {
