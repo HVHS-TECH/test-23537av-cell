@@ -79,7 +79,6 @@ function getFormInput() {
     let userChoice = CHOCOLATE_FIELD.value;
     OUTPUT.innerHTML += "<p> You chose: " + messages[userChoice] + "</p>";
 }
-const OUTPUT = document.getElementById("JavaScriptOutput");
 let shoppingList = [];
 function addItem() {
     const shoppingField = document.getElementById("shoppingField");
@@ -93,13 +92,6 @@ function showList() {
     for (let i = 0; shoppingList.length; i++) {
         OUTPUT.innerHTML += "<p>" + shoppingList[i] + "</p>";
     }
-
-
-
-
-
-
-
 }
 
 
